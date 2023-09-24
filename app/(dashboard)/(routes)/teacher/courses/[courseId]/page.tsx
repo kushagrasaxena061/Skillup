@@ -78,7 +78,8 @@ const CourseIdPage = async ({
           label="This course is unpublished. It will not be visible to the students."
         />
       )}
-      <div className="p-6">
+      <div className="p-6 bg-gradient-to-l from-[#FAF3F0] via-[#C4DFDF] to-[#DBC4F0]
+">
         <div className="flex items-center justify-between">
           <div className="flex flex-col gap-y-2">
             <h1 className="text-2xl font-medium">

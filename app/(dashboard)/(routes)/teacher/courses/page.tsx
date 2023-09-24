@@ -23,7 +23,8 @@ const CoursesPage = async () => {
   });
 
   return ( 
-    <div className="p-6">
+    <div className="p-6 h-full bg-gradient-to-l from-[#FAF3F0] via-[#C4DFDF] to-[#DBC4F0]
+    ">
       <DataTable columns={columns} data={courses} />
     </div>
    );

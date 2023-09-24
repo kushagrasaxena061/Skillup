@@ -59,7 +59,8 @@ const ChapterIdPage = async ({
           label="This chapter is unpublished. It will not be visible in the course"
         />
       )}
-      <div className="p-6">
+      <div className="p-6 bg-gradient-to-l from-[#FAF3F0] via-[#C4DFDF] to-[#DBC4F0]
+">
         <div className="flex items-center justify-between">
           <div className="w-full">
             <Link

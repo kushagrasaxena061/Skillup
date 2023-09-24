@@ -45,7 +45,7 @@ const ChapterIdPage = async ({
   const completeOnEnd = !!purchase && !userProgress?.isCompleted;
 
   return ( 
-    <div>
+    <div className="bg-gradient-to-l from-[#FAF3F0] via-[#C4DFDF] to-[#DBC4F0]">
       {userProgress?.isCompleted && (
         <Banner
           variant="success"
@@ -96,7 +96,7 @@ const ChapterIdPage = async ({
           {!!attachments.length && (
             <>
               <Separator />
-              <div className="p-4">
+              <div className="p-4 ">
                 {attachments.map((attachment) => (
                   <a 
                     href={attachment.url}

@@ -15,7 +15,7 @@ const guestRoutes = [
     icon: Compass,
     label: "Browse",
     href: "/search",
-  },
+  }
 ];
 
 const teacherRoutes = [
@@ -28,6 +28,10 @@ const teacherRoutes = [
     icon: BarChart,
     label: "Analytics",
     href: "/teacher/analytics",
+  },
+  {   icon: Compass,
+    label: "New Course",
+    href: "/teacher/conditions",
   },
 ]
 

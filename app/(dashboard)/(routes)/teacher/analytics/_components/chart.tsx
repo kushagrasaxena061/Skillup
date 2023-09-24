@@ -21,7 +21,8 @@ export const Chart = ({
   data
 }: ChartProps) => {
   return (
-    <Card>
+    <Card className="bg-gradient-to-l from-[#FAF3F0] via-[#C4DFDF] to-[#DBC4F0]
+    ">
       <ResponsiveContainer width="100%" height={350}>
         <BarChart data={data}>
           <XAxis
@@ -40,7 +41,7 @@ export const Chart = ({
           />
           <Bar
             dataKey="total"
-            fill="#0369a1"
+            fill="#000000"
             radius={[4, 4, 0, 0]}
           />
         </BarChart>

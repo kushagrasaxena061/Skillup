@@ -5,6 +5,7 @@ import { ClerkProvider } from '@clerk/nextjs'
 import { ToastProvider } from '@/components/providers/toaster-provider'
 import { ConfettiProvider } from '@/components/providers/confetti-provider'
 import { dark } from '@clerk/themes';
+import Footer from './(auth)/main/page'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -28,6 +29,7 @@ export default function RootLayout({
           <ConfettiProvider />
           <ToastProvider />
           {children}
+          
         </body>
       </html>
     </ClerkProvider>
