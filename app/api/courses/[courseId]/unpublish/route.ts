@@ -4,6 +4,7 @@ import { NextResponse } from "next/server";
 import { db } from "@/lib/db";
 
 export async function PATCH(
+  
   req: Request,
   { params }: { params: { courseId: string } }
 ) {
@@ -14,7 +15,7 @@ export async function PATCH(
       return new NextResponse("Unauthorized", { status: 401 });
     }
 
-    const course = await db.course.findUnique({
+    const course = await db.course.findMany({
       where: {
         id: params.courseId,
         userId,

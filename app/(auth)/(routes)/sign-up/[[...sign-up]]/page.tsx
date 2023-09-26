@@ -1,6 +1,6 @@
 import { Logo } from "@/app/(dashboard)/_components/logo";
 import { SignUp } from "@clerk/nextjs";
-import { Linkedin, Menu, Twitter } from "lucide-react";
+import { Blocks, IndianRupee, Linkedin, Menu, MoveUp, SearchCheck, Twitter } from "lucide-react";
 import Link from "next/link";
 
 export default function Page() {
@@ -53,13 +53,12 @@ export default function Page() {
                 </p>
 
                 <h1 className="mb-8 text-4xl font-bold text-black sm:text-5xl md:mb-12 md:text-6xl">
-                  Revolutionary way to Aquire the skills
+                  Helping you learn about the world.
                 </h1>
 
                 <p className="mb-8 leading-relaxed text-gray-700 md:mb-12 lg:w-4/5 xl:text-lg">
-                  This is a section of some simple filler text, also known as
-                  placeholder text. It shares some characteristics of a real
-                  written text but is random.
+                  We bring students and teachers together to create a more
+                  personalized learning experience and faster.
                 </p>
 
                 <div className="flex flex-col gap-2.5 sm:flex-row sm:justify-center lg:justify-start">
@@ -99,102 +98,104 @@ export default function Page() {
               <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">
                 Our competitive advantage
               </h2>
-
-              <p className="mx-auto max-w-screen-md text-center text-gray-700 md:text-lg">
-                This is a section of some simple filler text, also known as
-                placeholder text. It shares some characteristics of a real
-                written text but is random or otherwise generated.
-              </p>
             </div>
 
             <div className="grid gap-8 sm:grid-cols-2 md:gap-12 xl:grid-cols-3 xl:gap-16">
               <div className="flex gap-4 md:gap-6">
                 <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-indigo-500 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl">
-                  IMAGE
+                <MoveUp />
                 </div>
 
                 <div>
                   <h3 className="mb-2 text-lg font-semibold md:text-xl">
-                    Growth
+                    High-Quality Content
                   </h3>
                   <p className="mb-2 text-gray-700">
-                    Filler text is dummy text which has no meaning however looks
-                    very similar to real text.
+                    Offering well-researched, engaging, and up-to-date content
+                    is crucial. Content should be tailored to the needs of the
+                    target audience and cover a wide range of topics
                   </p>
                 </div>
               </div>
               <div className="flex gap-4 md:gap-6">
                 <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-indigo-500 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl">
-                  IMAGE
+                <Blocks />
                 </div>
 
                 <div>
                   <h3 className="mb-2 text-lg font-semibold md:text-xl">
-                    Growth
+                    Interactive Learning
                   </h3>
                   <p className="mb-2 text-gray-700">
-                    Filler text is dummy text which has no meaning however looks
-                    very similar to real text.
+                    Incorporate interactive elements like quizzes, discussions,
+                    simulations, and virtual labs to make the learning
+                    experience more engaging and effective.
                   </p>
                 </div>
               </div>
               <div className="flex gap-4 md:gap-6">
                 <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-indigo-500 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl">
-                  IMAGE
+                <IndianRupee />
                 </div>
 
                 <div>
                   <h3 className="mb-2 text-lg font-semibold md:text-xl">
-                    Growth
+                    Competitive Pricing
                   </h3>
                   <p className="mb-2 text-gray-700">
-                    Filler text is dummy text which has no meaning however looks
-                    very similar to real text.
+                    Offer competitive pricing models, discounts, or subscription
+                    plans to attract and retain learners. Consider a freemium
+                    model where basic courses are free, but premium content
+                    requires payment.
                   </p>
                 </div>
               </div>
               <div className="flex gap-4 md:gap-6">
                 <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-indigo-500 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl">
-                  IMAGE
+                <SearchCheck />
                 </div>
 
                 <div>
                   <h3 className="mb-2 text-lg font-semibold md:text-xl">
-                    Growth
+                    Marketing and SEO
                   </h3>
                   <p className="mb-2 text-gray-700">
-                    Filler text is dummy text which has no meaning however looks
-                    very similar to real text.
+                    Invest in digital marketing strategies and search engine
+                    optimization (SEO) to ensure your website is discoverable by
+                    your target audience. Consider partnerships with influencers
+                    or educational institutions.
+                  </p>
+                </div>
+              </div>
+              
+              <div className="flex gap-4 md:gap-6">
+                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-indigo-500 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl">
+                <SearchCheck />
+                </div>
+
+                <div>
+                  <h3 className="mb-2 text-lg font-semibold md:text-xl">
+                    Global Reach
+                  </h3>
+                  <p className="mb-2 text-gray-700">
+                    Translate content and offer courses in multiple languages to
+                    reach a global audience.
                   </p>
                 </div>
               </div>
               <div className="flex gap-4 md:gap-6">
                 <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-indigo-500 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl">
-                  IMAGE
+                <SearchCheck />
                 </div>
 
                 <div>
                   <h3 className="mb-2 text-lg font-semibold md:text-xl">
-                    Growth
+                    Partnerships
                   </h3>
                   <p className="mb-2 text-gray-700">
-                    Filler text is dummy text which has no meaning however looks
-                    very similar to real text.
-                  </p>
-                </div>
-              </div>
-              <div className="flex gap-4 md:gap-6">
-                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-indigo-500 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl">
-                  IMAGE
-                </div>
-
-                <div>
-                  <h3 className="mb-2 text-lg font-semibold md:text-xl">
-                    Growth
-                  </h3>
-                  <p className="mb-2 text-gray-700">
-                    Filler text is dummy text which has no meaning however looks
-                    very similar to real text.
+                    Collaborate with educational institutions, businesses, or
+                    industry experts to enhance your course offerings and
+                    gain credibility.
                   </p>
                 </div>
               </div>
@@ -210,13 +211,11 @@ export default function Page() {
               </h2>
 
               <p className="mx-auto max-w-screen-md text-center text-gray-700 md:text-lg">
-                This is a section of some simple filler text, also known as
-                placeholder text. It shares some characteristics of a real
-                written text but is random or otherwise generated.
+              Meet our dynamic team, united by passion, innovation, and a shared commitment to excellence.
               </p>
             </div>
 
-            <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5 lg:gap-8">
+            <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-3 lg:gap-8">
               <div className="flex flex-col items-center rounded-lg bg-cyan-100 p-4 lg:p-8">
                 <div className="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-200 shadow-lg md:mb-4 md:h-32 md:w-32">
                   <img
@@ -342,6 +341,7 @@ export default function Page() {
                   </div>
                 </div>
               </div>
+              
               <div className="flex flex-col items-center rounded-lg bg-cyan-100 p-4 lg:p-8">
                 <div className="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-200 shadow-lg md:mb-4 md:h-32 md:w-32">
                   <img
@@ -354,10 +354,11 @@ export default function Page() {
 
                 <div>
                   <div className="text-center font-bold text-indigo-500 md:text-lg">
-                    Dhruv Garg
+                    Vedant
                   </div>
                   <p className="mb-3 text-center text-sm text-gray-500 md:mb-4 md:text-base">
-                    PPT
+                  Data Visualisation Analyst & Marketing
+
                   </p>
 
                   <div className="flex justify-center">
@@ -373,6 +374,42 @@ export default function Page() {
                   </div>
                 </div>
               </div>
+
+
+              <div className="flex flex-col items-center rounded-lg bg-cyan-100 p-4 lg:p-8">
+                <div className="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-200 shadow-lg md:mb-4 md:h-32 md:w-32">
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0e6aRwUWe05GU70z-SRkF5VEBpkVmQpJ8jh0dYiJffkU-UuCb59YsRiCWlOOcbTvggkE&usqp=CAU"
+                    loading="lazy"
+                    alt="Photo by christian ferrer"
+                    className="h-full w-full object-cover object-center"
+                  />
+                </div>
+
+                <div>
+                  <div className="text-center font-bold text-indigo-500 md:text-lg">
+                    Riya Gusain
+                  </div>
+                  <p className="mb-3 text-center text-sm text-gray-500 md:mb-4 md:text-base">
+                  Content Visualiser
+                  </p>
+
+                  <div className="flex justify-center">
+                    <div className="flex gap-4">
+                      <div className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
+                        <Linkedin />
+                      </div>
+
+                      <div className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
+                        <Twitter />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
             </div>
           </div>
         </div>

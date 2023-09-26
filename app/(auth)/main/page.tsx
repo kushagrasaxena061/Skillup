@@ -14,7 +14,6 @@ const Footer = () => {
           </div>
         </div>
 
-        <p className="mb-6 text-gray-800 sm:pr-8">Filler text is dummy text which has no meaning however looks very similar to real text.</p>
 
         <div className="flex gap-4">
           <div className="text-gray-800 transition duration-100 hover:text-gray-500 active:text-gray-600">

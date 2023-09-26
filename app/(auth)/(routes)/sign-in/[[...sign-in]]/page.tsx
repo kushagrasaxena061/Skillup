@@ -215,7 +215,7 @@ export default function Page() {
               </p>
             </div>
 
-            <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5 lg:gap-8">
+            <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-3 lg:gap-8">
               <div className="flex flex-col items-center rounded-lg bg-cyan-100 p-4 lg:p-8">
                 <div className="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-200 shadow-lg md:mb-4 md:h-32 md:w-32">
                   <img
@@ -341,6 +341,7 @@ export default function Page() {
                   </div>
                 </div>
               </div>
+              
               <div className="flex flex-col items-center rounded-lg bg-cyan-100 p-4 lg:p-8">
                 <div className="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-200 shadow-lg md:mb-4 md:h-32 md:w-32">
                   <img
@@ -353,10 +354,11 @@ export default function Page() {
 
                 <div>
                   <div className="text-center font-bold text-indigo-500 md:text-lg">
-                    Dhruv Garg
+                    Vedant
                   </div>
                   <p className="mb-3 text-center text-sm text-gray-500 md:mb-4 md:text-base">
-                    PPT
+                  Data Visualisation Analyst & Marketing
+
                   </p>
 
                   <div className="flex justify-center">
@@ -372,6 +374,42 @@ export default function Page() {
                   </div>
                 </div>
               </div>
+
+
+              <div className="flex flex-col items-center rounded-lg bg-cyan-100 p-4 lg:p-8">
+                <div className="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-200 shadow-lg md:mb-4 md:h-32 md:w-32">
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0e6aRwUWe05GU70z-SRkF5VEBpkVmQpJ8jh0dYiJffkU-UuCb59YsRiCWlOOcbTvggkE&usqp=CAU"
+                    loading="lazy"
+                    alt="Photo by christian ferrer"
+                    className="h-full w-full object-cover object-center"
+                  />
+                </div>
+
+                <div>
+                  <div className="text-center font-bold text-indigo-500 md:text-lg">
+                    Riya Gusain
+                  </div>
+                  <p className="mb-3 text-center text-sm text-gray-500 md:mb-4 md:text-base">
+                  Content Visualiser
+                  </p>
+
+                  <div className="flex justify-center">
+                    <div className="flex gap-4">
+                      <div className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
+                        <Linkedin />
+                      </div>
+
+                      <div className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
+                        <Twitter />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
             </div>
           </div>
         </div>
