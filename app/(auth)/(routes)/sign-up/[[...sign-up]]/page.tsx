@@ -103,7 +103,7 @@ export default function Page() {
             <div className="grid gap-8 sm:grid-cols-2 md:gap-12 xl:grid-cols-3 xl:gap-16">
               <div className="flex gap-4 md:gap-6">
                 <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-indigo-500 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl">
-                <MoveUp />
+                  <MoveUp />
                 </div>
 
                 <div>
@@ -119,7 +119,7 @@ export default function Page() {
               </div>
               <div className="flex gap-4 md:gap-6">
                 <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-indigo-500 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl">
-                <Blocks />
+                  <Blocks />
                 </div>
 
                 <div>
@@ -135,7 +135,7 @@ export default function Page() {
               </div>
               <div className="flex gap-4 md:gap-6">
                 <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-indigo-500 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl">
-                <IndianRupee />
+                  <IndianRupee />
                 </div>
 
                 <div>
@@ -152,7 +152,7 @@ export default function Page() {
               </div>
               <div className="flex gap-4 md:gap-6">
                 <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-indigo-500 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl">
-                <SearchCheck />
+                  <SearchCheck />
                 </div>
 
                 <div>
@@ -167,10 +167,10 @@ export default function Page() {
                   </p>
                 </div>
               </div>
-              
+
               <div className="flex gap-4 md:gap-6">
                 <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-indigo-500 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl">
-                <SearchCheck />
+                  <SearchCheck />
                 </div>
 
                 <div>
@@ -185,7 +185,7 @@ export default function Page() {
               </div>
               <div className="flex gap-4 md:gap-6">
                 <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-indigo-500 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl">
-                <SearchCheck />
+                  <SearchCheck />
                 </div>
 
                 <div>
@@ -207,11 +207,9 @@ export default function Page() {
           <div className="mx-auto max-w-screen-xl px-4 md:px-8">
             <div className="mb-10 md:mb-16">
               <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">
-                Meet our Team
               </h2>
 
               <p className="mx-auto max-w-screen-md text-center text-gray-700 md:text-lg">
-              Meet our dynamic team, united by passion, innovation, and a shared commitment to excellence.
               </p>
             </div>
 
@@ -228,10 +226,8 @@ export default function Page() {
 
                 <div>
                   <div className="text-center font-bold text-indigo-500 md:text-lg">
-                    Kushagra Saxena
                   </div>
                   <p className="mb-3 text-center text-sm text-gray-500 md:mb-4 md:text-base">
-                    Backend Integration
                   </p>
 
                   <div className="flex justify-center">
@@ -260,10 +256,8 @@ export default function Page() {
 
                 <div>
                   <div className="text-center font-bold text-indigo-500 md:text-lg">
-                    Simran Tyagi
                   </div>
                   <p className="mb-3 text-center text-sm text-gray-500 md:mb-4 md:text-base">
-                    API Creation
                   </p>
 
                   <div className="flex justify-center">
@@ -291,10 +285,8 @@ export default function Page() {
 
                 <div>
                   <div className="text-center font-bold text-indigo-500 md:text-lg">
-                    Geetansh Pandey
                   </div>
                   <p className="mb-3 text-center text-sm text-gray-500 md:mb-4 md:text-base">
-                    API Integration
                   </p>
 
                   <div className="flex justify-center">
@@ -322,10 +314,8 @@ export default function Page() {
 
                 <div>
                   <div className="text-center font-bold text-indigo-500 md:text-lg">
-                    Arya Singh
                   </div>
                   <p className="mb-3 text-center text-sm text-gray-500 md:mb-4 md:text-base">
-                    UI/UX Developer
                   </p>
 
                   <div className="flex justify-center">
@@ -341,7 +331,7 @@ export default function Page() {
                   </div>
                 </div>
               </div>
-              
+
               <div className="flex flex-col items-center rounded-lg bg-cyan-100 p-4 lg:p-8">
                 <div className="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-200 shadow-lg md:mb-4 md:h-32 md:w-32">
                   <img
@@ -354,10 +344,8 @@ export default function Page() {
 
                 <div>
                   <div className="text-center font-bold text-indigo-500 md:text-lg">
-                    Vedant
                   </div>
                   <p className="mb-3 text-center text-sm text-gray-500 md:mb-4 md:text-base">
-                  Data Visualisation Analyst & Marketing
 
                   </p>
 
@@ -388,10 +376,8 @@ export default function Page() {
 
                 <div>
                   <div className="text-center font-bold text-indigo-500 md:text-lg">
-                    Riya Gusain
                   </div>
                   <p className="mb-3 text-center text-sm text-gray-500 md:mb-4 md:text-base">
-                  Content Visualiser
                   </p>
 
                   <div className="flex justify-center">
