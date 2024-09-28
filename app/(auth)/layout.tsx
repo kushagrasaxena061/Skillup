@@ -7,14 +7,14 @@ const AuthLayout = ({
 }) => {
   return (
     <div>
-    <div className="h-full bg-gradient-to-r from-[#FCE9F1] via-[#73BBC9] to-[#F1D4E5]">
-      <div className="h-full  flex items-center justify-center">
-        {children}
+      <div className="h-full bg-gradient-to-r from-[#FCE9F1] via-[#73BBC9] to-[#F1D4E5]">
+        <div className="h-full  flex items-center justify-center">
+          {children}
+        </div>
       </div>
-    </div>
-    <div className="bg-gradient-to-r from-[#FCE9F1] via-[#73BBC9] to-[#F1D4E5]">
-          <Footer/>
-          </div>
+      <div className="bg-gradient-to-r from-[#FCE9F1] via-[#73BBC9] to-[#F1D4E5]">
+        <Footer />
+      </div>
 
 
     </div>
