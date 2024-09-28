@@ -9,6 +9,10 @@
 /coverage
 
 # next.js
+.gitignore
+/.gitignore
+.history
+/.history
 /.next/
 .env
 /.env
